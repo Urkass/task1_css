@@ -1,0 +1,55 @@
+@mixin small {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin middle {
+  @media only screen and (max-width: 992px) {
+    @content;
+  }
+}
+@mixin special-middle {
+  @media only screen and (max-width: 1250px) {
+    @content;
+  }
+}
+@mixin special-middle2 {
+  @media only screen and (max-width: 1080px) {
+    @content;
+  }
+}
+@mixin menu-mobile {
+  @media (max-width: 800px) {
+    @content;
+  }
+}
+
+/* colors */
+
+$white: white;
+$orange-light: #ffb01d;
+$orange-bold: #d99414;
+$grey-light: #ebeaea;
+$grey-light2: #dfe0db;
+$aqua: #afe4d6;
+$grey1: #5d5d5f;
+$grey2: #474747;
+$grey3: #a0a29d;
+
+$red1: #ef4230;
+$red2: #be1e2d;
+$red3: #f15a47;
+
+$orange1: #f7931e;
+$orange2: #fcb040;
+$orange3: #f15b2a;
+
+$green1: #39b449;
+$green2: #009344;
+$green3: #8cc63f;
+
+$blue1: #00b9f2;
+$blue2: #00aeef;
+$blue3: #1b75bc;
+
+$grey1: #f0f0f0;

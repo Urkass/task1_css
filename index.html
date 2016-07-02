@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0, maximum-scale=1.0, user-scalable=no" charset="UTF-8">
+    <title>Мои Блоки</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,greek,greek-ext,cyrillic-ext,latin-ext,vietnamese,cyrillic" rel="stylesheet" type="text/css">
+    <!--<link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/node_modules/hamburgers/dist/hamburgers.min.css">-->
+    <link rel="stylesheet" href="/dist/libs.css">
+    <link rel="stylesheet" href="/dist/style.css">
+</head>
+<body>
+    <div class="section" style="height: 100px; background-color: palegreen;"></div>
+    <div class="section menu menu_place_normal">
+        <!--<div class="menu__logo"></div>-->
+        <div class="menu__mobile-button hamburger hamburger--spin">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+        <nav class="navigation menu__navigation">
+            <ul class="navigation__ul navigation__ul_type_main">
+                <!--<img class="navigation__logo" src="logo.png" alt="">-->
+                <li class="navigation__li navigation__li_type_main"><a href="" class="navigation__a navigation__a_type_main">Главная</a></li>
+                <li class="navigation__li navigation__li_type_main"><a href="http://optic-online.hldn.ru/about.html" class="navigation__a navigation__a_type_main">О нас</a></li>
+                <li class="navigation__li navigation__li_type_main"><a href="http://optic-online.hldn.ru/catalog/unit_24.html" class="navigation__a navigation__a_type_main">Каталог</a></li>
+                <li class="navigation__li navigation__li_type_main"><a href="http://optic-online.hldn.ru/catalog/unit_25.html" class="navigation__a navigation__a_type_main">Новости</a></li>
+                <li class="navigation__li navigation__li_type_main"><a href="http://optic-online.hldn.ru/delivery.html" class="navigation__a navigation__a_type_main">Доставка и оплата</a></li>
+                <li class="navigation__li navigation__li_type_main"><a href="http://optic-online.hldn.ru/contacts.html" class="navigation__a navigation__a_type_main">Контакты</a></li>
+            </ul>
+        </nav>
+        <!--<div class="menu__language-button">Язык</div>-->
+        <!--<div class="menu__search-button">Поиск</div>-->
+        <!-- sfd-->
+    </div>
+    <div class="menu__stickyalias"></div>    <div class="section" style="height: 400px; background-color: sandybrown;"></div>
+    <div class="section" style="height: 400px; background-color: greenyellow;"></div>
+    <div class="section" style="height: 400px; background-color: white;"></div>
+    <div class="section" style="height: 400px; background-color: skyblue;"></div>
+    <div class="modal modal_display_none modal_type_order">
+        <div class="modal__content">
+            <div class="modal__close">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewbox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+                    <g>
+                        <g id="cancel">
+                            <g>
+                                <path d="M306,0C136.992,0,0,136.992,0,306s136.992,306,306,306c168.988,0,306-136.992,306-306S475.008,0,306,0z M306,573.75
+                                    C158.125,573.75,38.25,453.875,38.25,306C38.25,158.125,158.125,38.25,306,38.25c147.875,0,267.75,119.875,267.75,267.75
+                                    C573.75,453.875,453.875,573.75,306,573.75z M434.425,177.576c-7.287-7.287-19.125-7.287-26.412,0L306,279.588L203.987,177.576
+                                    c-7.287-7.287-19.125-7.287-26.412,0s-7.287,19.125,0,26.412L279.588,306L177.595,408.013c-7.287,7.287-7.287,19.125,0,26.412
+                                    c7.287,7.286,19.125,7.286,26.412,0L306,332.412l102.013,102.013c7.287,7.286,19.125,7.286,26.412,0
+                                    c7.286-7.287,7.286-19.125,0-26.412L332.412,306l102.013-102.013C441.711,196.701,441.711,184.881,434.425,177.576z">
+                            </path></g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <h2 class="modal__header">Заполните заявку, и мы свяжемся с Вами в ближайшее время</h2>
+            <form class="form modal__form">
+                <input class="form__input" name="name" type="text" placeholder="&#x418;&#x43C;&#x44F;">
+                <input class="form__input" name="phone" type="tel" placeholder="&#x422;&#x435;&#x43B;&#x435;&#x444;&#x43E;&#x43D;">
+                <input class="form__input form__input_display_none" id="contentId" name="contentId" type="text">
+            </form>
+            <div class="form__submit">Отправить</div>
+        </div>
+    </div>
+    <div class="modal modal_display_none modal_type_error">
+        <div class="modal__content">
+            <div class="modal__close">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewbox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+                    <g>
+                        <g id="cancel">
+                            <g>
+                                <path d="M306,0C136.992,0,0,136.992,0,306s136.992,306,306,306c168.988,0,306-136.992,306-306S475.008,0,306,0z M306,573.75
+                                    C158.125,573.75,38.25,453.875,38.25,306C38.25,158.125,158.125,38.25,306,38.25c147.875,0,267.75,119.875,267.75,267.75
+                                    C573.75,453.875,453.875,573.75,306,573.75z M434.425,177.576c-7.287-7.287-19.125-7.287-26.412,0L306,279.588L203.987,177.576
+                                    c-7.287-7.287-19.125-7.287-26.412,0s-7.287,19.125,0,26.412L279.588,306L177.595,408.013c-7.287,7.287-7.287,19.125,0,26.412
+                                    c7.287,7.286,19.125,7.286,26.412,0L306,332.412l102.013,102.013c7.287,7.286,19.125,7.286,26.412,0
+                                    c7.286-7.287,7.286-19.125,0-26.412L332.412,306l102.013-102.013C441.711,196.701,441.711,184.881,434.425,177.576z">
+                            </path></g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <h2 class="modal__header">Неполадки с сервером, позвоните нам по телефону!</h2>
+        </div>
+    </div>
+    <div class="modal modal_display_none modal_type_success">
+        <div class="modal__content">
+            <div class="modal__close">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewbox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+                    <g>
+                        <g id="cancel">
+                            <g>
+                                <path d="M306,0C136.992,0,0,136.992,0,306s136.992,306,306,306c168.988,0,306-136.992,306-306S475.008,0,306,0z M306,573.75
+                                    C158.125,573.75,38.25,453.875,38.25,306C38.25,158.125,158.125,38.25,306,38.25c147.875,0,267.75,119.875,267.75,267.75
+                                    C573.75,453.875,453.875,573.75,306,573.75z M434.425,177.576c-7.287-7.287-19.125-7.287-26.412,0L306,279.588L203.987,177.576
+                                    c-7.287-7.287-19.125-7.287-26.412,0s-7.287,19.125,0,26.412L279.588,306L177.595,408.013c-7.287,7.287-7.287,19.125,0,26.412
+                                    c7.287,7.286,19.125,7.286,26.412,0L306,332.412l102.013,102.013c7.287,7.286,19.125,7.286,26.412,0
+                                    c7.286-7.287,7.286-19.125,0-26.412L332.412,306l102.013-102.013C441.711,196.701,441.711,184.881,434.425,177.576z">
+                            </path></g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <h2 class="modal__header">Спасибо за отправленную заявку! Мы свяжемся с Вами в ближайшее время!</h2>
+        </div>
+    </div>    <script type="text/javascript" src="/dist/libs.js"></script>
+    <script type="text/javascript" src="/dist/app.js"></script>
+</body>
+</html>
