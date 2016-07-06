@@ -1,19 +1,15 @@
 .image
 {
-  background: no-repeat center center fixed;
+  background: no-repeat center center;
+  @media screen and (min-device-width: 1024px){
+    background-attachment: fixed;
+  }
   background-size: cover;
   position: relative;
   width: 100%;
   height: 80vh;
   text-align: center;
   vertical-align: middle;
-  font-size: 1em;
-  @include middle(){
-    font-size: 0.8em;
-  }
-  @include small(){
-    font-size: 0.6em;
-  }
   &:before {
     content: '';
     display: inline-block;

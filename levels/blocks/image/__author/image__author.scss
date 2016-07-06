@@ -3,12 +3,14 @@
   position: relative;
   display: block;
   color: white;
-  bottom: 70px;
+  bottom: 55px;
   z-index: 2;
+  margin-left: 5%;
+  margin-right: 5%;
   @include middle(){
     font-size: 0.8em;
   }
   @include small(){
-    font-size: 1.1em;
+    font-size: 0.8em;
   }
 }
