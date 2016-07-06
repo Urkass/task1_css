@@ -173,43 +173,43 @@ body {
 }
 
 .image_content_main {
-  background-image: url("/images/image_content_main.jpeg");
+  background-image: url("../images/image_content_main.jpeg");
 }
 
 @media only screen and (max-width: 768px) {
   .image_content_main {
-    background-image: url("/images/image_content_main-768.jpeg");
+    background-image: url("../images/image_content_main-768.jpeg");
   }
 }
 
 @media only screen and (max-width: 320px) {
   .image_content_main {
-    background-image: url("/images/image_content_main-320.jpeg");
+    background-image: url("../images/image_content_main-320.jpeg");
   }
 }
 
 .image_content_people {
-  background-image: url("/images/image_content_people.jpeg");
+  background-image: url("../images/image_content_people.jpeg");
 }
 
 .image_content_road {
-  background-image: url("/images/image_content_road.jpeg");
+  background-image: url("../images/image_content_road.jpeg");
 }
 
 .image_content_sea {
-  background-image: url("/images/image_content_sea.jpeg");
+  background-image: url("../images/image_content_sea.jpeg");
 }
 
 .image_content_team {
-  background-image: url("/images/image_content_team.jpeg");
+  background-image: url("../images/image_content_team.jpeg");
 }
 
 .image_content_walking {
-  background-image: url("/images/image_content_walking.jpeg");
+  background-image: url("../images/image_content_walking.jpeg");
 }
 
 .image_content_weather {
-  background-image: url("/images/image_content_weather.jpeg");
+  background-image: url("../images/image_content_weather.jpeg");
 }
 
 .container__column-right_border-placed_true {
@@ -239,6 +239,12 @@ body {
   .container__column-right_position_top {
     margin-bottom: 5vh;
   }
+}
+
+.container__paragraph_first-letter_big::first-letter {
+  font-size: 3.5em;
+  font-weight: bold;
+  line-height: 0;
 }
 
 .image__title_size_1 {
@@ -302,10 +308,4 @@ body {
   .image__title_size_3 {
     font-size: 0.7em;
   }
-}
-
-.container__paragraph_first-letter_big::first-letter {
-  font-size: 3.5em;
-  font-weight: bold;
-  line-height: 0;
 }
