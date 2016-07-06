@@ -1,0 +1,11 @@
+.image_content_main
+{
+  background-image: url("image_content_main.jpeg");
+  @include middle(){
+    background-image: url("image_content_main-768.jpeg");
+  }
+  @include small(){
+    background-image: url("image_content_main-320.jpeg");
+    //background-position-y: top;
+  }
+}

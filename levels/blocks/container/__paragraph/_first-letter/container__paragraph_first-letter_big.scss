@@ -1,0 +1,8 @@
+.container__paragraph_first-letter_big
+{
+  &::first-letter{
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 0;
+  }
+}

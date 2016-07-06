@@ -1,0 +1,10 @@
+.image__title_size_3
+{
+  font-size: 1em;
+  @include middle(){
+    font-size: 0.8em;
+  }
+  @include small(){
+    font-size: 1.1em;
+  }
+}

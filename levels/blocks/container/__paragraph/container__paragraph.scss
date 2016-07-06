@@ -1,0 +1,10 @@
+.container__paragraph
+{
+  max-width: 600px;
+  width: 55%;
+  margin-top: 0;
+  text-align: justify;
+  @include middle(){
+    width: 100%;
+  }
+}

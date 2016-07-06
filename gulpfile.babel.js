@@ -79,7 +79,7 @@ gulp.task('html', function() {
     return gulp.src(params.htmlSrc)
         .pipe(handlebars(templateData, options))
         .pipe(rename({extname: ".html"}))
-        .pipe(inlineImagePath({path: params.out + "/images"}))
+        //.pipe(inlineImagePath({path: params.out + "/images"}))
         .pipe(gulp.dest(params.out))
         .pipe(reload({ stream: true }));
 });
@@ -110,7 +110,7 @@ gulp.task('css', function() {
         .pipe(concat("style.scss"))
         .pipe(sass().on('error', sass.logError))
         .pipe(url({
-            prepend: 'images/'
+            prepend: '/images/'
         }));
 
     return merge(fontsStream, varandscssMerge)

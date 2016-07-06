@@ -1,0 +1,14 @@
+.image__author
+{
+  position: relative;
+  display: block;
+  color: white;
+  bottom: 70px;
+  z-index: 2;
+  @include middle(){
+    font-size: 0.8em;
+  }
+  @include small(){
+    font-size: 1.1em;
+  }
+}

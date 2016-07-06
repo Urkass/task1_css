@@ -9,6 +9,7 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
+    "normalize.css": "^4.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.7",

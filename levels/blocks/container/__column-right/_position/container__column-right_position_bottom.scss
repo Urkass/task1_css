@@ -1,0 +1,7 @@
+.container__column-right_position_bottom
+{
+  bottom: 0;
+  @include middle(){
+    margin-top: 5vh;
+  }
+}

@@ -1,0 +1,38 @@
+.image
+{
+  background: no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+  @include middle(){
+    font-size: 0.8em;
+  }
+  @include small(){
+    font-size: 0.6em;
+  }
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    display: block;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.2);
+    //opacity: 0.2;
+    width: 100%;
+    height: 100%;
+  }
+}
+body{
+  font-family: 'PT Serif', serif;
+  //overflow-x: hidden;
+}
