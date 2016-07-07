@@ -1,11 +1,19 @@
 
 /* colors */
 
+body {
+  font-family: 'PT Serif', serif;
+}
+
+article {
+  overflow-x: hidden;
+}
+
 .container {
   position: relative;
   box-sizing: border-box;
-  margin: 8vh auto 10vh;
   max-width: 920px;
+  margin: 8vh auto 10vh;
   padding: 0 40px 0 40px;
   font-size: 1.1em;
 }
@@ -33,6 +41,12 @@
 
 html {
   font-size: 16px;
+}
+
+.picture {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .image {
@@ -69,37 +83,20 @@ html {
   height: 100%;
 }
 
-body {
-  font-family: 'PT Serif', serif;
-}
-
-article {
-  overflow-x: hidden;
-}
-
-.picture {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-}
-
 .container__aside {
-  box-sizing: border-box;
   position: absolute;
+  right: 40px;
+  box-sizing: border-box;
   max-width: 400px;
   width: 35%;
-  right: 40px;
   font-size: 0.8em;
-  float: right;
   margin: 0;
   padding: 5px 0 5px 10px;
-  clear: both;
 }
 
 @media only screen and (max-width: 768px) {
   .container__aside {
     position: relative;
-    float: none;
     right: 0;
     margin: 0 auto;
     width: auto;
@@ -111,6 +108,16 @@ article {
     margin-left: 5%;
     margin-right: 5%;
   }
+}
+
+.container__header {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+.container__img-paragraph {
+  margin: 0 auto;
 }
 
 .container__image {
@@ -126,37 +133,12 @@ article {
   }
 }
 
-.container__header {
-  text-transform: uppercase;
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
-}
-
-.container__img-paragraph {
-  margin: 0 auto;
-}
-
-.container__paragraph {
-  max-width: 600px;
-  width: 55%;
-  margin-top: 0;
-  text-align: justify;
-}
-
-@media only screen and (max-width: 768px) {
-  .container__paragraph {
-    width: 100%;
-    margin-bottom: 5vh;
-  }
-}
-
 .image__author {
   position: absolute;
-  display: block;
-  color: white;
-  bottom: 15px;
   right: 0;
   left: 0;
+  bottom: 15px;
+  color: white;
   z-index: 2;
   margin-left: 5%;
   margin-right: 5%;
@@ -171,6 +153,20 @@ article {
 @media only screen and (max-width: 320px) {
   .image__author {
     font-size: 0.8em;
+  }
+}
+
+.container__paragraph {
+  max-width: 600px;
+  width: 55%;
+  margin-top: 0;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+  .container__paragraph {
+    width: 100%;
+    margin-bottom: 5vh;
   }
 }
 
@@ -230,13 +226,13 @@ article {
   background-image: url("../images/image_content_weather.jpeg");
 }
 
-.container__aside_border-placed_true {
-  border-left: 4px solid #f0efea;
-}
-
 .container__aside_font_bold {
   font-weight: bold;
   font-size: 1em;
+}
+
+.container__aside_border-placed_true {
+  border-left: 4px solid #f0efea;
 }
 
 @media only screen and (max-width: 320px) {
