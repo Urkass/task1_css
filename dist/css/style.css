@@ -235,7 +235,7 @@ html {
   font-size: 1em;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
   .container__aside_image-content_true {
     padding: 0;
   }
