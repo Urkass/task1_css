@@ -12,5 +12,6 @@
   }
   @include small(){
     font-size: 1.6em;
+    max-width: 254px;
   }
 }

@@ -110,7 +110,7 @@ gulp.task('css', function() {
         .pipe(concat("style.scss"))
         .pipe(sass().on('error', sass.logError))
         .pipe(url({
-            prepend: '/images/'
+            prepend: '../images/'
         }));
 
     return merge(fontsStream, varandscssMerge)

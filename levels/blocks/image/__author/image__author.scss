@@ -1,9 +1,11 @@
 .image__author
 {
-  position: relative;
+  position: absolute;
   display: block;
   color: white;
-  bottom: 55px;
+  bottom: 15px;
+  right: 0;
+  left: 0;
   z-index: 2;
   margin-left: 5%;
   margin-right: 5%;

@@ -9,5 +9,6 @@
   }
   @include small(){
     font-size: 2.0em;
+    max-width: 254px;
   }
 }

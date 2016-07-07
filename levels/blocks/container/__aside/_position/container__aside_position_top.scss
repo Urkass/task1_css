@@ -1,0 +1,7 @@
+.container__aside_position_top
+{
+  top: 0;
+  @include middle(){
+    margin-bottom: 5vh;
+  }
+}
