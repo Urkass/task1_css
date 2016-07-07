@@ -1,18 +1,15 @@
 .container__aside
 {
-  box-sizing: border-box;
   position: absolute;
+  right: 40px;
+  box-sizing: border-box;
   max-width: 400px;
   width: 35%;
-  right: 40px;
   font-size: 0.8em;
-  float: right;
   margin: 0;
   padding: 5px 0 5px 10px;
-  clear: both;
   @include middle(){
     position: relative;
-    float: none;
     right: 0;
     margin: 0 auto;
     width: auto;
