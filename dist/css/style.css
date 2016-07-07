@@ -1,6 +1,7 @@
 
 /* colors */
 
+<<<<<<< HEAD
 body {
   font-family: 'PT Serif', serif;
 }
@@ -14,6 +15,13 @@ article {
   box-sizing: border-box;
   max-width: 920px;
   margin: 8vh auto 10vh;
+=======
+.container {
+  position: relative;
+  box-sizing: border-box;
+  margin: 8vh auto 10vh;
+  max-width: 920px;
+>>>>>>> c340758132293c9b805b6cdac23637b6d8c1f630
   padding: 0 40px 0 40px;
   font-size: 1.1em;
 }
@@ -43,12 +51,15 @@ html {
   font-size: 16px;
 }
 
+<<<<<<< HEAD
 .picture {
   width: 100%;
   height: 100vh;
   object-fit: cover;
 }
 
+=======
+>>>>>>> c340758132293c9b805b6cdac23637b6d8c1f630
 .image {
   background: no-repeat center center;
   background-size: cover;
@@ -83,6 +94,7 @@ html {
   height: 100%;
 }
 
+<<<<<<< HEAD
 .container__aside {
   position: absolute;
   right: 40px;
@@ -92,11 +104,42 @@ html {
   font-size: 0.8em;
   margin: 0;
   padding: 5px 0 5px 10px;
+=======
+body {
+  font-family: 'PT Serif', serif;
+}
+
+article {
+  overflow-x: hidden;
+}
+
+.picture {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container__aside {
+  box-sizing: border-box;
+  position: absolute;
+  max-width: 400px;
+  width: 35%;
+  right: 40px;
+  font-size: 0.8em;
+  float: right;
+  margin: 0;
+  padding: 5px 0 5px 10px;
+  clear: both;
+>>>>>>> c340758132293c9b805b6cdac23637b6d8c1f630
 }
 
 @media only screen and (max-width: 768px) {
   .container__aside {
     position: relative;
+<<<<<<< HEAD
+=======
+    float: none;
+>>>>>>> c340758132293c9b805b6cdac23637b6d8c1f630
     right: 0;
     margin: 0 auto;
     width: auto;
@@ -110,16 +153,8 @@ html {
   }
 }
 
-.container__header {
-  text-transform: uppercase;
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
-}
-
-.container__img-paragraph {
-  margin: 0 auto;
-}
-
+<<<<<<< HEAD
+=======
 .container__image {
   width: 100%;
   margin-bottom: 20px;
@@ -133,12 +168,58 @@ html {
   }
 }
 
+>>>>>>> c340758132293c9b805b6cdac23637b6d8c1f630
+.container__header {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+.container__img-paragraph {
+  margin: 0 auto;
+}
+
+<<<<<<< HEAD
+.container__image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+  .container__image {
+    width: 100vw;
+    position: relative;
+    right: 10vw;
+=======
+.container__paragraph {
+  max-width: 600px;
+  width: 55%;
+  margin-top: 0;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+  .container__paragraph {
+    width: 100%;
+    margin-bottom: 5vh;
+>>>>>>> c340758132293c9b805b6cdac23637b6d8c1f630
+  }
+}
+
 .image__author {
   position: absolute;
+<<<<<<< HEAD
   right: 0;
   left: 0;
   bottom: 15px;
   color: white;
+=======
+  display: block;
+  color: white;
+  bottom: 15px;
+  right: 0;
+  left: 0;
+>>>>>>> c340758132293c9b805b6cdac23637b6d8c1f630
   z-index: 2;
   margin-left: 5%;
   margin-right: 5%;
@@ -156,6 +237,7 @@ html {
   }
 }
 
+<<<<<<< HEAD
 .container__paragraph {
   max-width: 600px;
   width: 55%;
@@ -170,6 +252,8 @@ html {
   }
 }
 
+=======
+>>>>>>> c340758132293c9b805b6cdac23637b6d8c1f630
 .image__title {
   color: white;
   text-transform: uppercase;
@@ -226,15 +310,25 @@ html {
   background-image: url("../images/image_content_weather.jpeg");
 }
 
+<<<<<<< HEAD
+=======
+.container__aside_border-placed_true {
+  border-left: 4px solid #f0efea;
+}
+
+>>>>>>> c340758132293c9b805b6cdac23637b6d8c1f630
 .container__aside_font_bold {
   font-weight: bold;
   font-size: 1em;
 }
 
+<<<<<<< HEAD
 .container__aside_border-placed_true {
   border-left: 4px solid #f0efea;
 }
 
+=======
+>>>>>>> c340758132293c9b805b6cdac23637b6d8c1f630
 @media only screen and (max-width: 320px) {
   .container__aside_image-content_true {
     padding: 0;
